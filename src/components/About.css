@@ -1,0 +1,28 @@
+.aboutcontainer{
+    background-color: #f2f2f2;
+    padding: 5rem 0rem;
+    padding-left: 3rem;
+
+}
+
+.col{
+    width: 30%;
+    padding: 0rem 2rem;
+}
+
+.col p{
+    width: 80%;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.row1{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.row2{
+    display: flex;
+    padding-top: 2rem;
+}

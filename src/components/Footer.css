@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+.footer{
+    background-color: #202221;
+    color: white;
+    padding: 4rem 5rem;
+    display: flex;
+}
+ 
+.footer p{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.LHS{
+    width: 50%;
+}
+
+.email-text{
+    display: flex;
+    padding: 0.2rem 0.2rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+input{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    padding-left: 1rem;
+}
+
+.email-text button{
+    padding: 0.8rem 1.2rem;
+    background-color: #2E302F;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Urbanist', sans-serif;   
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out; 
+}
+
+.email-text button:hover{
+    /* background-color: ; */
+    border: none;
+    color: white;
+    box-shadow: inset 200px 0 0 0 #7D59C3;
+}
+
+.signup{
+    padding: 1.2rem 2.5rem;
+    background-color: #7D59C3;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    font-family: 'Urbanist', sans-serif;    
+    box-shadow: 0px 6px 10px 2px #00000026;
+}
+
+.signup:hover{
+    background-color: #2E302F;
+    border: none;
+    color: white;
+    transition: 300ms;
+    scale: 105%;
+}
+
+.social{
+    padding-top: 2rem;
+}
+
+.social img:hover{
+    scale: 120%;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.row{
+    display: flex;
+    padding-bottom: 1rem;
+    font-family: 'Urbanist', sans-serif;
+    gap: 1rem;
+
+}
+
+.row .col{
+    width: 33%;
+    font-family: 'Urbanist', sans-serif;
+    padding: 0px;
+}
+
+
+.col ul{
+    list-style-type: none;
+    padding: 0px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.col li{
+    font-weight: 100;
+    padding: 0.3rem 0rem;
+    opacity: 60%;
+    font-size: 12px;
+}

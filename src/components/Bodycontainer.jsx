@@ -1,8 +1,10 @@
 import React from 'react'
 import MainContainer from './MainContainer'
+import "./Bodycontainer.css"
+
 export const BodyContainer = () => {
   return (
-    <div>
+    <div className='body'>
         <MainContainer/>
     </div>
   )

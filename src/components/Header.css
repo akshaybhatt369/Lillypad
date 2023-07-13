@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;500&display=swap');
+
+.mainclass{
+    display: flex;
+    padding:1.5rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 5rem;
+}
+
+.list{
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.list img{
+    height: 2.3rem;
+}
+
+.list ul{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    gap: 1em;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+.list ul li{
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+}
+
+.headerbutton{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.contact{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.contact:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: #7D59C3;
+    transition: 200ms;
+    scale: 105%;
+}
+
+.login{
+    padding: 1rem 2rem;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: #7D59C3;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 200ms;
+    scale: 105%;
+}
+
+.active{
+    color: #7C5AC7;
+    font-weight: 700;
+}
